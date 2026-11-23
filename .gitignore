@@ -1,0 +1,24 @@
+# Sistema operativo y archivos temporales
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+
+# Entornos y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencias y logs (si se usan herramientas de build a futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Builds y temporales
+dist/
+build/
+.cache/
